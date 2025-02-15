@@ -64,17 +64,29 @@ To further enhance the versatility of this node, consider exploring inputting im
 **_Parameters Details_**     These get pushed to the JSON request that goes to KoboldAPI
 
 Parameter	Type	Default Value	Description
+
 text_input	STRING	Enter your promt to anaylze here, or change this to an input and add text node(s)	The text prompt that will be sent to KoboldCPP for text generation.
+
 api_endpoint	STRING	http://<kobold_IP_or_HOSTNAME>:5001/api/v1/generate	The URL of your KoboldCPP API endpoint. Important: Replace <kobold_IP_or_HOSTNAME> with your KoboldCPP server address.
+
 rep_pen	FLOAT	1.08	Repetition penalty, controls how much the model should avoid repeating tokens.
+
 rep_pen_range	FLOAT	360	Range for repetition penalty.
+
 rep_pen_slope	FLOAT	0.7	Slope for repetition penalty.
+
 temperature	FLOAT	0.87	Sampling temperature, controls the randomness of the output. Lower values are more deterministic, higher values are more random.
+
 tfs	FLOAT	1	Tail Free Sampling, another sampling method.
+
 top_a	FLOAT	0	Top-A sampling.
+
 top_k	FLOAT	90	Top-K sampling, keeps only the top K most likely tokens.
+
 top_p	FLOAT	0.94	Top-P (nucleus) sampling, keeps tokens with cumulative probability mass of P.
+
 typical	FLOAT	1	Typical sampling.
+
 ![image](https://github.com/user-attachments/assets/6ac3ffdc-569c-459b-9539-415db4219a1a)
 
 
